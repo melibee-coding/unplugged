@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Unplugged</title>
+  <title>Unplugged Retreat</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -25,12 +25,16 @@
 
 <body>
 
+  <!--<a href="#maincontent">Skip to main content</a>-->
+
   <header> <!--Header start-->
 
-    <div>
+    <div class=content-wrapper>
       <figure class="logo">
         <a href="#"><img src="" alt="Unplugged Logo"></a>
       </figure>
+
+      <div class="header-divider"></div>
 
       <nav>
         <ul>
@@ -39,35 +43,32 @@
         </ul>
       </nav>
 
-    </div> <!--End of header div-->
+    </div> <!--End of header content-wrapper-->
 
   </header>
 
-  <main> <!--Main start-->
+  <main id="maincontent"> <!--Main start-->
 
     <section class="hero">
-
       <div class="content-wrapper">
         <h1>Retreat from the desk, return refreshed!</h1>
 
-        <!------Should the hero image be a background image or in html? What about alt text?????-------->
+        <!----Should the hero image be a background image or in html? What about alt text?????------->
 
       </div> <!--End of div "content-wrapper"-->
-
     </section> <!--End of hero-->
 
     <aside class="newsletter">
-
-      <div class="newsletter-wrapper">
-
+      <div class="content-wrapper">
         <div class="form-description">
-          <h3>Want to join the next retreat?</h3>
+          <h2 class="H3-style">Want to join the next retreat?</h2>
           <p>Find out when we are holding our next retreat and how your company or team can sign up!</p>
         </div><!--End of div "form-description"-->
 
         <form method="" action="" class="newsletter-form">
           <h3>Find out more</h3>
-          <input type="email" name="email" placeholder="name@email.com" required>
+          <label for="email">Enter your email:</label><br>
+          <input id="email" type="email" name="email" value="name@email.com">
           <input type="submit" name="download-itinerary" value="Download Itinerary">
         </form>
 
@@ -78,7 +79,7 @@
     <section class="unplugged-info"> <!--Info about Unplugged-->
 
       <div class="content-wrapper">
-        <h2>Have the work week you always dreamed of &#8212; without the bad wifi.<h2>
+        <h2>Have the work week you always dreamed of &#8212; without the bad wifi.</h2>
             <img class="info-icons" src="" alt="">
             <p>Located in a peaceful bungalow outside of Lake Geneva, Wisconsion</p>
             <img class="info-icons" src="" alt="">
@@ -114,22 +115,24 @@
   <footer> <!--footer start-->
 
     <div class="content-wrapper">
-      <div class="footer-contact">
-
+      <div class="footer-content">
         <div class="contact">
           <h4>Contact</h4>
           <address>
             <a href="tel:555-555-5555">555-555-5555</a><br>
             <a href="mailto:hello@unplugged.com">hello@unplugged.com</a>
           </address>
-        </div> <!--end div "contact"-->
+        </div> <!--end div "content"-->
 
         <div class="social">
           <h4>Social</h4>
-          <p><a href="https://facebook.com/yoursite" rel="noopener" target="_blank"><img src="" alt="Facebook"></a></p>
-          <p><a href="https://twitter.com/yoursite" rel="noopener" target="_blank"><img src="" alt="Twitter"></a></p>
-          <p><a href="https://instagram.com/yoursite" rel="noopener" target="_blank"><img src="" alt="Instagram"></a>
-          </p>
+          <div class="social-icons">
+            <p><a href="https://facebook.com/yoursite" rel="noopener" target="_blank"><img src="" alt="Facebook"></a>
+            </p>
+            <p><a href="https://twitter.com/yoursite" rel="noopener" target="_blank"><img src="" alt="Twitter"></a></p>
+            <p><a href="https://instagram.com/yoursite" rel="noopener" target="_blank"><img src="" alt="Instagram"></a>
+            </p>
+          </div> <!--End of social-icons-->
         </div> <!--End of div "social"-->
 
         <div class="copyright">
