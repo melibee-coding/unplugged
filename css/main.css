@@ -139,6 +139,14 @@ address {
   font-style: normal;
 }
 
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
 /*-------------------- Base Header and  Footer Styles --------------------*/
 header {
   display: flex;
@@ -153,6 +161,12 @@ header .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+header figure {
+  display: flex;
+  width: 60%;
+  justify-content: center;
 }
 
 .header-divider {
@@ -221,6 +235,11 @@ footer .copyright {
 .hero-area {
   display: flex;
   justify-content: center;
+  background-image: url(../img/unplugged-retreat.jpg);
+  background-color:#527158;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-area h1 {
@@ -270,6 +289,11 @@ input[type=button] {
 .features {
   display: flex;
   justify-content: center;
+  background-image: url(../img/unplugged-retreat-features.jpg);
+  background-color: #527158;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .features h2 {
