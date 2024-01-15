@@ -318,6 +318,11 @@ input[type="button"] {
   text-align: center;
 }
 
+.features i {
+  font-size: 3.75em;
+  padding-bottom: 40px;
+}
+
 /*--- Review section ---*/
 
 .reviews {
@@ -345,7 +350,7 @@ input[type="button"] {
 }
 
 .map figure {
-  width:100%;
+  width: 100%;
   height: 0;
   padding-bottom: 125%;
   overflow: hidden;
@@ -565,6 +570,10 @@ input[type="button"] {
     flex-basis: 50%;
   }
 
+  .features i {
+    padding-bottom: 30px;
+  }
+
   .features .features-items-description {
     width: 62%;
   }
@@ -578,7 +587,7 @@ input[type="button"] {
     width: 80%;
   }
 
-  .reviews figure, 
+  .reviews figure,
   .reviews article div {
     width: 48%;
   }
@@ -631,7 +640,6 @@ input[type="button"] {
 
   .map figure {
     padding-bottom: 55%;
-
   }
 
   .contact-section .content-wrapper h2 {
@@ -697,19 +705,18 @@ input[type="button"] {
 
   /* ========== Homepage - Desktop ========= */
 
-  /* Hero */
+  /* Hero - Desktop */
 
   .hero-area {
     min-height: 600px;
   }
-
 
   .hero-area h1 {
     width: 80%;
     font-size: 3.75em;
   }
 
-  /* Aside */
+  /* Aside - Desktop */
 
   aside .content-wrapper {
     justify-content: space-around;
@@ -724,7 +731,7 @@ input[type="button"] {
     font-size: 1.125em;
   }
 
-  /* Features */
+  /* Features - Desktop */
 
   .features h2 {
     width: 90%;
@@ -734,7 +741,7 @@ input[type="button"] {
     flex-basis: 33%;
   }
 
-  /* Reviews */
+  /* Reviews - Desktop */
 
   .reviews h2 {
     padding-bottom: 50px;
