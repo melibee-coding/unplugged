@@ -217,7 +217,6 @@ footer .social-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
-
 }
 
 footer .social-icons p {
@@ -228,6 +227,7 @@ footer .social-icons p {
   width: 40px;
   height: 40px;
   border-radius: 50%;
+  margin-bottom: 50px;
 }
 
 footer .social-icons p i {
@@ -617,7 +617,11 @@ input[type="button"] {
     flex-flow: row wrap;
   }
   footer .contact {
-    margin-bottom: 0;
+    width: 33%;
+  }
+
+  footer .social {
+    width: 33%;
   }
 
   footer h4 {
@@ -631,6 +635,7 @@ input[type="button"] {
 
   footer .copyright {
     width: 100%;
+    margin-top: 100px;
   }
 
   /* ========== About page - Tablet  ========= */
@@ -761,12 +766,16 @@ input[type="button"] {
 
   /* Footer */
 
-  footer h4 [
-    font-size: 1.875em;;
-  ]
+  footer h4 [font-size: 1.875em;;] footer .contact {
+    width: 25%;
+  }
+
+  footer .social {
+    width: 25%;
+  }
 
   /* ========== About page - Desktop ========= */
-  
+
   .mission h2,
   .contact-section .content-wrapper h2 {
     width: 95%;
