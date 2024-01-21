@@ -156,7 +156,6 @@ header {
   padding: 15px 0;
   background-color: #202322;
   border-bottom: 1px solid #2C3330;
-  box-sizing: border-box;
 }
 
 header .content-wrapper {
@@ -254,7 +253,6 @@ footer .copyright {
   background-size: cover;
   min-height: 500px;
   border-bottom: 1px solid #718a78;
-  box-sizing: border-box;
 }
 
 .hero-area h1 {
@@ -270,7 +268,6 @@ aside {
   justify-content: center;
   background-color: #527158;
   border-bottom: 1px solid #565750;
-  box-sizing: border-box;
 }
 
 /*-------- Input and submit buttons --------*/
@@ -312,7 +309,6 @@ input[type="button"] {
   background-size: cover;
   background-position: center;
   border-bottom: 1px solid #565750;
-  box-sizing: border-box;
 }
 
 .features h2 {
@@ -347,7 +343,6 @@ input[type="button"] {
   justify-content: center;
   background-color: #2a423a;
   border-bottom: 1px solid #565750;
-  box-sizing: border-box;
 }
 
 .reviews h2 {
@@ -416,7 +411,6 @@ input[type="button"] {
   justify-content: center;
   background-color: #527158;
   border-bottom: 1px solid #617765;
-  box-sizing: border-box;
 }
 
 .faq .content-wrapper {
