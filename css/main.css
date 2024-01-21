@@ -87,7 +87,8 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-/*------------------ General Styles *--------------------*/
+/*------------------ General Styles --------------------*/
+
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
@@ -120,6 +121,7 @@ h2 {
   font-family: "Poppins", sans-serif;
   font-size: 1.875em;
   font-weight: 500;
+  margin: 0;
 }
 
 h3,
@@ -153,6 +155,8 @@ header {
   justify-content: center;
   padding: 15px 0;
   background-color: #202322;
+  border-bottom: 1px solid #2C3330;
+  box-sizing: border-box;
 }
 
 header .content-wrapper {
@@ -249,6 +253,8 @@ footer .copyright {
   background-position: center;
   background-size: cover;
   min-height: 500px;
+  border-bottom: 1px solid #718a78;
+  box-sizing: border-box;
 }
 
 .hero-area h1 {
@@ -263,6 +269,8 @@ aside {
   display: flex;
   justify-content: center;
   background-color: #527158;
+  border-bottom: 1px solid #565750;
+  box-sizing: border-box;
 }
 
 /*-------- Input and submit buttons --------*/
@@ -303,6 +311,8 @@ input[type="button"] {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border-bottom: 1px solid #565750;
+  box-sizing: border-box;
 }
 
 .features h2 {
@@ -317,7 +327,6 @@ input[type="button"] {
 .features .features-items {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
   flex-flow: row wrap;
 }
 
@@ -337,10 +346,12 @@ input[type="button"] {
   display: flex;
   justify-content: center;
   background-color: #2a423a;
+  border-bottom: 1px solid #565750;
+  box-sizing: border-box;
 }
 
 .reviews h2 {
-  margin-bottom: 40px;
+  margin: 0 0 40px 0;
   line-height: 1;
 }
 
@@ -349,12 +360,27 @@ input[type="button"] {
   margin: 20px 0;
 }
 
+.reviews img {
+  border: 1px solid #72847f;
+}
+
 /*-------------------- Mobile styles - About page  ------------------*/
 
 .mission {
   display: flex;
   justify-content: center;
   background-color: #527158;
+  border-bottom: 1px solid #708674;
+  box-sizing: border-box;
+}
+
+.mission p {
+  margin: 0;
+}
+
+.map {
+  border-bottom: 1px solid #e8eaeb;
+  box-sizing: border-box;
 }
 
 .map figure {
@@ -389,6 +415,8 @@ input[type="button"] {
   display: flex;
   justify-content: center;
   background-color: #527158;
+  border-bottom: 1px solid #617765;
+  box-sizing: border-box;
 }
 
 .faq .content-wrapper {
@@ -520,7 +548,7 @@ input[type="button"] {
 
   /* ========== Homepage - Tablet ========= */
 
-  /* Header */
+  /* Header - Tablet */
   header {
     padding: 33px 0;
   }
@@ -546,7 +574,7 @@ input[type="button"] {
     display: none;
   }
 
-  /* Hero */
+  /* Hero - Tablet */
   .hero-area {
     min-height: 600px;
   }
@@ -557,7 +585,7 @@ input[type="button"] {
     margin: 0;
   }
 
-  /* Aside */
+  /* Aside - Tablet */
   aside .content-wrapper {
     margin: 50px 0;
     display: flex;
@@ -570,7 +598,15 @@ input[type="button"] {
     width: 40%;
     margin: 0;
   }
-  /* Features */
+  /* Features - Tablet */
+  .features h2 {
+    padding-bottom: 20px;
+  }
+
+  .features .features-items {
+    align-items: flex-start;
+  }
+
   .features article {
     display: flex;
     align-items: center;
@@ -582,11 +618,11 @@ input[type="button"] {
     padding-bottom: 30px;
   }
 
-  .features .features-items-description {
-    width: 62%;
+  .features .features-item-description {
+    width: 65%;
   }
 
-  /* Reviews */
+  /* Reviews - Tablet */
   .reviews article {
     display: flex;
     justify-content: space-between;
@@ -605,7 +641,7 @@ input[type="button"] {
     margin: 0;
   }
 
-  /* Footer */
+  /* Footer - Tablet  */
   footer .content-wrapper {
     width: 65%;
   }
@@ -652,7 +688,7 @@ input[type="button"] {
   }
 
   .map figure {
-    padding-bottom: 55%;
+    padding-bottom: 45.5%;
   }
 
   .contact-section .content-wrapper h2 {
@@ -720,10 +756,6 @@ input[type="button"] {
 
   /* Hero - Desktop */
 
-  .hero-area {
-    min-height: 600px;
-  }
-
   .hero-area h1 {
     width: 80%;
     font-size: 3.75em;
@@ -766,7 +798,7 @@ input[type="button"] {
 
   /* Footer */
 
-  footer h4 [font-size: 1.875em;;] footer .contact {
+  footerh4 [font-size: 1.875em;;] footer .contact {
     width: 25%;
   }
 
@@ -790,7 +822,7 @@ input[type="button"] {
     font-size: 1.875em;
   }
 
-  /* ========== FAQ page ========= */
+  /* ========== FAQ page - Desktop ========= */
 
   .faq h2 {
     width: 100%;
