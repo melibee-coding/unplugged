@@ -103,6 +103,7 @@ body {
   font-size: 1em;
   color: #e2e3ed;
   text-align: left;
+  background-color: #202322
 }
 
 ul,
@@ -411,7 +412,7 @@ input[type="button"] {
 
 .faq .content-wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
   flex-flow: row wrap;
   margin: 50px 0 0 0;
